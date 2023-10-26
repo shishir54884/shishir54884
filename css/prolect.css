@@ -1,0 +1,162 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-color:#fff ;
+    scroll-behavior: smooth;
+}
+@font-face{
+    font-family:shishir ;
+    src: url('fonts/Nunito-VariableFont_wght.ttf');
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+overflow: hidden;
+box-shadow: 0px 0px 3px 3px rgb(211, 196, 196);
+}
+.mid{
+    width: 80%;
+    margin: auto;
+}
+.left{
+    width: 30%;
+    float: left;
+}
+.left h2{
+    color: #0eb9cb;
+    margin-top: 15px;
+}
+.right{
+    width: 70%;
+    float: left;
+    text-align: right;
+}
+.right ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 15px 0px;
+    margin: 0px 10px;
+    
+}
+.right ul li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    font-family:tahoma;
+}
+.right ul li a:hover {
+color: #0eb9cb;
+text-shadow:0px 0px 15px #0eb9cb ;
+}
+/* menu end */
+
+.con-box{
+margin-top: 100px;
+}
+.box-mid{
+    width: 70%;
+    margin: auto;
+    justify-content: center;
+}
+.center{
+    width: 500px;
+    margin: auto;
+margin-left: 752px;
+}
+.box{
+    width: 100px;
+    height: 100px;
+  overflow: hidden;
+    box-shadow: 0px 0px 10px 5px rgb(211, 196, 196);
+    display: inline-block;
+    margin: 10px 15px;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
+.box:hover{
+    rotate: 10deg;
+}
+.img{
+    width: 100px;
+}
+.img2{
+    width: 100px;
+}
+.img3{
+    width: 100px;
+}
+/* con-box end */
+.text-box{
+    width: 90%;
+    margin: auto;
+    margin-top:100px;
+    text-align: center;
+}
+.text-box h2{
+    margin-top:20px;
+    color:#0eb9cb;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.contanar{
+margin-top: 150px;
+height: 350px;
+margin-right: 50px;
+
+
+}
+.contanar::after{
+    content: ('');
+    display: block;
+    clear: both;
+}
+
+.mid-con{
+    width: 90%;
+   margin: auto;
+ 
+
+}
+.box-con{
+
+}
+
+.boxm{
+    width: 260px;
+    height: 300px;
+    box-shadow: 0px 0px 10px 5px rgb(211, 196, 196);
+    display: inline-block;
+    margin: 0px 12px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 1s;
+    cursor: pointer;
+
+    
+
+}
+.boxm:hover {
+    rotate: 10deg;
+}
+.imges{
+    width: 200px;
+    margin-top: 10px;
+}
+.box-con{
+    margin-left:26px;
+    height: 350px;
+}
+.m{
+    padding: 15px 0px;
+}
+.box-com{
+    margin-left:91px;
+    height: 350px;
+}
