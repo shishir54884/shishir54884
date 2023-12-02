@@ -1,0 +1,53 @@
+body{
+
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(135,84,13,1) 100%);
+
+}
+.text{
+    width: 100%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.bu{
+    width:250px;
+    margin: auto;
+    margin-top:10px;
+    background-color: #25232333;
+    padding: 20px 12px;
+    border-radius: 10px;
+    color: orange;
+    cursor: pointer;
+}
+.bu input{
+    width:90%;
+    padding: 8px 10px;
+    border-radius: 10px;
+    text-align: right;
+    background-color: #000;
+    border:none;
+    cursor: pointer;
+    color: aliceblue;
+    margin: 10px 0px;
+}
+button{
+    width: 49px;
+    height: 50px;
+    background-color: #000;
+    margin: 8px 5px;
+    box-shadow: 3px 3px 15px rgba(75, 71, 71, 0.555);
+    border-radius:50%;
+    border: 1px solid rgba(153, 67, 67, 0.644) ;
+    cursor: pointer;
+ }
+#eco{
+    color: rgb(255, 167, 5);
+}
+#ec{
+    color: aquamarine;
+}
+p{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}

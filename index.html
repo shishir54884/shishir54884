@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="text">
+        <h1>Calculator</h1>
+    </div>
+    <div id="cal">
+        <div class="bu">
+            <input type="text" id="dis">
+            <button id="ec" onclick="appendValue('7')">7</button>
+            <button id="ec" onclick="appendValue('8')">8</button>
+            <button id="ec" onclick="appendValue('9')">9</button>
+            <button id="eco" onclick="appendValue('+')">+</button>
+            <button id="ec" onclick="appendValue('4')">4</button>
+            <button id="ec" onclick="appendValue('5')">5</button>
+            <button id="ec" onclick="appendValue('6')">6</button>
+            <button id="eco" onclick="appendValue('-')">-</button>
+            <button id="ec" onclick="appendValue('1')">1</button>
+        <button id="ec" onclick="appendValue('2')">2</button>
+        <button id="ec" onclick="appendValue('3')">3</button>
+        <button id="eco" onclick="appendValue('/')">/</button>
+        <button id="eco" onclick="clearDisplay()">AC</button>
+        <button id="eco" onclick="appendValue('0')">0</button>
+        <button id="eco" onclick="appendValue('*')">*</button>
+        <button id="eco" onclick="calculate()">=</button>
+        </div>      
+    </div>
+    <p>shishir islam</p>
+   <script src="script.js"></script>
+</body>
+</html>
