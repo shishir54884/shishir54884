@@ -19,6 +19,7 @@ body{
     border-radius: 10px;
     color: orange;
     cursor: pointer;
+    overflow: hidden;
 }
 .bu input{
     width:90%;
